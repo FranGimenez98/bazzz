@@ -57,14 +57,20 @@ export default function Contact() {
       id="contact"
     >
       <motion.div
-        className="mb-5"
+        className="mb-5 flex flex-col w-[70%] items-center"
         initial={{ opacity: 0, y: -100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ type: "easeIn", duration: 0.8 }}
         viewport={{ once: true }}
       >
         <h2 className="text-black font-bold text-2xl">Contacto 📩</h2>
-        <div className="w-[60%] h-1 bg-pink-500"></div>
+        <div className="w-[10%] h-1 bg-pink-500"></div>
+        {/* <h4 className="w-[90%] text-center md:w-[45%] font-semibold mt-2">¡Impulsa Tu Negocio con Bazzz! 💪💼</h4>
+        <span className="w-[90%] text-center md:w-[80%]">
+          Estamos emocionados de ayudarte a
+          alcanzar tus metas. ¡Hablemos sobre tu proyecto y comencemos a crear
+          la página web perfecta para que despegues en el mundo digital!
+        </span> */}
       </motion.div>
       <motion.form
         initial={{ opacity: 0, x: -100 }}
